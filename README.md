@@ -11,7 +11,7 @@ Official implementation for
 (CVPR EarthVision workshop 2025)
 <br>
 [![arXiv](https://img.shields.io/badge/arxiv-xxx.xxx-b31b1b.svg)](https://arxiv.org/abs/xxx.xxx)
-[![Project page](https://img.shields.io/badge/Project_page-8A2BE2)](https://ecovision-uzh.github.io/ssl4eco)
+[![Project page](https://img.shields.io/badge/Project_page-8A2BE2)](https://plekhanovaelena.github.io/ssl4eco)
 <br>
 <br>
 **If you ❤️ or simply use this project, don't forget to give the repository a ⭐,
