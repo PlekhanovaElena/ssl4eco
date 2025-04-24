@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriately as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimensions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>SSL4Eco: A Global Seasonal Dataset for Geospatial Foundation Models in Ecology</title>
+  <link rel="icon" type="image/x-icon" href="static/images/willow_tree.svg">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">SSL4Eco<br>A Global Seasonal Dataset for Geospatial Foundation Models in Ecology<br>🌍🌱</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block"><a href="https://www.wsl.ch/en/staff/plekhano" target="_blank">Elena Plekhanova</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://drprojects.github.io" target="_blank">Damien Robert</a><sup>2</sup>,</span>
+              <span class="author-block"><a href="https://dm3l.uzh.ch/wegner/team" target="_blank">Johannes Dollinger</a><sup>2</sup>,</span>
+              <span class="author-block"><a href="https://dm3l.uzh.ch/wegner/team" target="_blank">Emilia Arens</a><sup>2</sup>,</span>
+              <span class="author-block"><a href="https://www.wsl.ch/de/mitarbeitende/brunp/" target="_blank">Philipp Brun</a><sup>1</sup>,</span>
+              <span class="author-block"><a href="https://dm3l.uzh.ch/wegner/group-leader" target="_blank">Jan Dirk Wegner</a><sup>2</sup>,</span>
+              <span class="author-block"><a href="https://www.wsl.ch/de/mitarbeitende/zimmerma" target="_blank">Niklaus Zimmermann</a><sup>1</sup></span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <sup>1</sup>Land Change Science, Swiss Federal Research Institute WSL, Birmensdorf, Switzerland
+                <br>
+                <sup>2</sup>DM3L, University of Zurich, Zurich, Switzerland
+                <br>
+                <a href="https://www.grss-ieee.org/events/earthvision-2025"><b>CVPR EarthVision 2025</b></a>
+              </span>
+<!--                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>-->
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                   <!-- Paper PDF link -->
+                <span class="link-block">
+                  <a href="static/pdfs/paper.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Slides PDF link -->
+                <span class="link-block">
+                  <a href="static/pdfs/slides.pdf" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fa-solid fa-person-chalkboard"></i>
+                    </span>
+                    <span>Slides</span>
+                  </a>
+                </span>
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/PlekhanovaElena/ssl4eco" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/xxx.xxx" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            With the exacerbation of the biodiversity and climate crises,
+            macroecological pursuits such as global biodiversity mapping become
+            more urgent. Remote sensing offers a wealth of Earth observation
+            data for ecological studies, but the scarcity of labeled datasets
+            remains a major challenge. Recently, self-supervised learning has
+            enabled learning representations from unlabeled data, triggering
+            the development of pretrained geospatial models with generalizable
+            features. However, these models are often trained on datasets
+            biased toward areas of high human activity, leaving entire
+            ecological regions underrepresented. Additionally, while some
+            datasets attempt to address seasonality through multi-date imagery,
+            they typically follow calendar seasons rather than local
+            phenological cycles. To better capture vegetation seasonality at a
+            global scale, we propose a simple phenology-informed sampling
+            strategy and introduce corresponding SSL4Eco, a multi-date
+            Sentinel-2 dataset, on which we train an existing model with a
+            season-contrastive objective. We compare representations learned
+            from SSL4Eco against other datasets on diverse ecological
+            downstream tasks and demonstrate that our straightforward sampling
+            method consistently improves representation quality, highlighting
+            the importance of dataset construction. The model pretrained on
+            SSL4Eco reaches state-of-the-art performance on 7 out of 8
+            downstream tasks spanning (multi-label) classification and
+            regression. We release our
+            <a href="https://github.com/PlekhanovaElena/ssl4eco" target="_blank">
+              code, data, and model weights
+            </a>
+            to support macroecological and computer vision research.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="teaser-carousel" class="carousel results-carousel">
+       <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/spatial_sampling.png" alt="Spatial sampling"/>
+        <h2 class="subtitle has-text-centered">
+          We propose SSL4Eco, a multi-date Sentinel-2 dataset for pretraining
+          foundation models targeted for macroecological applications. Unlike
+          comparable datasets (a), SSL4Eco uniformly covers the entire landmass
+          (b), thus capturing all environment types without favoring urban and
+          agricultural areas, or ignoring entire ecoregions (c).
+        </h2>
+      </div>
+      <div class="item">
+        <!-- Your image here -->
+        <img src="static/images/seasonal_sampling.png" alt="Seasonal sampling"/>
+        <h2 class="subtitle has-text-centered">
+          Unlike previous works which sample seasonal images based on calendar
+          dates (dashed lines in (a)), we define phenology-informed, local
+          seasons based the Enhanced Vegetation Index (colored sections in (a)).
+          As a result, our SSL4Eco dataset covers the full cycle of vegetation
+          activity at each location (b), capturing patterns otherwise missed by
+          calendar sampling.
+        </h2>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Results</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/spider_plot.png" alt="Spider plot"/>
+          <h2 class="subtitle has-text-centered">
+            We follow <a href="https://arxiv.org/abs/2103.16607">SeCo</a>
+            to pretrain a SeCo-Eco model on our dataset, and
+            assess its embeddings with linear probing against alternative
+            remote sensing foundation models across 8 downstream tasks.
+            We find that our simple spatiotemporal sampling plays a significant
+            role on downstream performance.
+          </h2>
+        </div>
+
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/table_classification.png" alt="Classification results"/>
+          <h2 class="subtitle has-text-centered">
+            Linear probing and K-Nearest Neighbor comparison of state-of-the-art
+            models with our SeCo-Eco pretrained on our SSL4Eco on classification
+            of two land cover datasets: global biomes and Arctic vegetation
+            types.
+            <b>Best</b>, <u>second best</u>.
+          </h2>
+        </div>
+
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/table_multilabel_classification.png" alt="Multi-label classification results"/>
+          <h2 class="subtitle has-text-centered">
+            Linear probing and K-Nearest Neighbor comparison of state-of-the-art
+            models with our SeCo-Eco pretrained on our SSL4Eco on multi-label
+            classification tasks. CLEF and TSAI have official train and test
+            splits, the standard deviation is only reported when relevant.
+            <b>Best</b>, <u>second best</u>.
+          </h2>
+        </div>
+
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/table_regression.png" alt="Regression results"/>
+          <h2 class="subtitle has-text-centered">
+            Linear probing and K-Nearest Neighbor comparison of state-of-the-art
+            models with our SeCo-Eco pretrained on our SSL4Eco on regression
+            tasks. For the BioMassters task the standard deviation can only be
+            reported for linear probing due to the fixed train and test sets.
+            <b>Best</b>, <u>second best</u>.
+          </h2>
+        </div>
+
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/table_moco.png" alt="Regression results"/>
+          <h2 class="subtitle has-text-centered">
+            Linear probing comparison of
+            <a href="https://arxiv.org/abs/2003.04297">MoCo</a> and
+            <a href="https://arxiv.org/abs/2103.16607">SeCo</a> pretrainings on
+            SSL4Eco. SeCo-Eco learns both season-invariant and season-sensitive
+            representations, which yield overall better performance than the
+            season-invariant MoCo-Eco.
+            <b>Best</b>, <u>second best</u>.
+          </h2>
+        </div>
+
+        <div class="item">
+          <!-- Your image here -->
+          <img src="static/images/table_calendar.png" alt="Regression results"/>
+          <h2 class="subtitle has-text-centered">
+            Linear probing comparison of SeCo-Eco and SeCo-Calendar pretrained
+            on EVI-based and calendar-based seasonal samplings, respectively.
+            EVI-based samplings overall yields better features for downstream
+            macroecological tasks, except for the BioMassters dataset.
+            <b>Best</b>.
+          </h2>
+        </div>
+  </div>
+</div>
+</div>
+</section>
+<!-- End image carousel -->
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Slides</h2>
+      <iframe  src="static/pdfs/slides.pdf" width="80%" height="700"></iframe>
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+        @article{plekhanova2025ssl4eco,
+          title={SSL4Eco: A Global Seasonal Dataset for Geospatial Foundation Models in Ecology},
+          author={Plekhanova, Elena and Robert, Damien and Dollinger, Johannes and Arens, Emilia and Brun, Philipp and Wegner, Jan Dirk and Zimmermann, Niklaus},
+          journal={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+          year={2025},
+        }
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
