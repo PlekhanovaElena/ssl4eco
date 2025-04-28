@@ -10,7 +10,7 @@ Official implementation for
 <br>
 (CVPR EarthVision workshop 2025)
 <br>
-[![arXiv](https://img.shields.io/badge/arxiv-xxx.xxx-b31b1b.svg)](https://arxiv.org/abs/2504.18256)
+[![arXiv](https://img.shields.io/badge/arxiv-2504.18256-b31b1b.svg)](https://arxiv.org/abs/2504.18256)
 [![Project page](https://img.shields.io/badge/Project_page-8A2BE2)](https://plekhanovaelena.github.io/ssl4eco)
 <br>
 <br>
