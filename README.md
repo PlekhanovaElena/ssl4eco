@@ -6,7 +6,7 @@
 
 Official implementation for
 <br>
-**[_SSL4Eco: A Global Seasonal Dataset for Geospatial Foundation Models in Ecology_](https://arxiv.org/abs/xxxx.xxx)**
+**[_SSL4Eco: A Global Seasonal Dataset for Geospatial Foundation Models in Ecology_](https://arxiv.org/abs/2504.18256)**
 <br>
 (CVPR EarthVision workshop 2025)
 <br>
@@ -38,7 +38,7 @@ citation:
 }
 ```
 
-You can find our [paper 📄](https://arxiv.org/abs/xxx.xxx) on arxiv.
+You can find our [paper 📄](https://arxiv.org/abs/2504.18256) on arxiv.
 
 Also, **if you ❤️ or simply use this project, don't forget to give the 
 repository a ⭐, it means a lot to us !**
