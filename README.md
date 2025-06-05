@@ -25,6 +25,12 @@ it means a lot to us !**
 - **24.04.2025** 🚧 Datasets, code, and weights will soon be publicly released !
 
 
+---
+
+
+**Weights** of the SeCo-Eco model pretrained on SSL4Eco dataset are available [here](https://huggingface.co/eplekh/secoeco) 🤗 
+
+
 ## Citing our work
 If your work uses a part of the present code or ideas, please include the following 
 citation:
