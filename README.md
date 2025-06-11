@@ -1,14 +1,12 @@
 <div align="center">
 
-# SSL4Eco
-
-🌍🌱
+# SSL4Eco<br>🌍🌱
 
 Official implementation for
 <br>
 **[_SSL4Eco: A Global Seasonal Dataset for Geospatial Foundation Models in Ecology_](https://arxiv.org/abs/2504.18256)**
 <br>
-(CVPR EarthVision workshop 2025)
+CVPR EarthVision workshop 2025
 <br>
 [![arXiv](https://img.shields.io/badge/arxiv-2504.18256-b31b1b.svg)](https://arxiv.org/abs/2504.18256)
 [![Project page](https://img.shields.io/badge/Project_page-8A2BE2)](https://plekhanovaelena.github.io/ssl4eco)
@@ -31,7 +29,7 @@ it means a lot to us !**
 ## 📌  Description
 
 <p align="center">
-  <img width="75%" src="./docs/static/spatial_sampling.png">
+  <img width="80%" src="./docs/static/images/spatial_sampling.png">
 </p>
 
 **SSL4Eco** is a Sentinel-2 dataset for pretraining geospatial 
