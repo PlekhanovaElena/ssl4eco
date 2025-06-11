@@ -1,0 +1,41 @@
+# See available models keys at: downstream_tasks/test_modules/__init__.py
+MODEL: "secoeco"
+
+# See available datasets keys at: downstream_tasks/datasets/__init__.py
+DATASET: "biomes"
+
+# Evaluation mode, either 'linear' or 'knn'
+PROBE: "linear"
+
+USE_PRECOMPUTED_EMBEDDINGS: False
+USE_PRECOMPUTED_TEST_PREDICTIONS: False
+
+SAVE_NAME_linear: "${oc.env:SECOECO_ROOT}/experiment_files/${MODEL}_${DATASET}_linear"
+SAVE_NAME_knn: "${oc.env:SECOECO_ROOT}/experiment_files/${MODEL}_${DATASET}_${K_PROBE}-nn"
+SAVE_NAME: "${oc.select:SAVE_NAME_${PROBE}, ${oc.env:SECOECO_ROOT}/experiment_files/${MODEL}_${DATASET}_default}"
+
+EPOCHS: 1000
+EARLY_STOPPING_PATIENCE: 10
+EARLY_STOPPING_SENSITIVITY: 0.0
+BATCH_SIZE: 256
+LEARNING_RATE: 1e-3
+K_FOLDS: 10  # implicitly rules the size of the test split
+NUM_USED_FOLDS: 10  # may be lower than K_FOLDS if we do not want to run all folds
+NUM_WORKERS: 16
+TRAIN_VAL_SPLIT: [0.9, 0.1]
+SEED: 42
+DEVICE: "cuda"
+K_PROBE: -1  # number of neighbors used when PROBE='knn'. Setting <1 will use the optimal value for the dataset
+TEMP_PROBE: 0.07  # number of neighbors used when PROBE='knn'
+
+SAVE_TSNE: False # True False
+
+hydra:
+  # When running a single config, then the output path is defined here
+  run:
+    dir: "${SAVE_NAME}/output/${now:%Y-%m-%d-%H-%M-%S}"
+  # When doing a multirun, the output path is defined here
+  # subdir can be adapted to keep the sweeped arguments apart (e.g. putting LR here instead of model-dataset)
+  sweep:
+    dir: "${oc.env:SECOECO_ROOT}/multirun/${now:%Y-%m-%d-%H-%M-%S}"
+    subdir: ${MODEL}_${DATASET}_${PROBE}

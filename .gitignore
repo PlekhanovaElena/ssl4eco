@@ -1,1 +1,17 @@
+./downstream_tasks/precomputed_embeddings/*
+datasets_old/BigEarthNet
+*.npy
+__pycache__
+*.ckpt
+*.pt
+./downstream_tasks/experiment_files
+*.sh 
+downstream_tasks/models/__pycache__
+.ipynb_checkpoints
 .idea
+downstream_tasks/srun_outputs
+
+downstream_tasks/outputs/
+notebooks/
+
+downstream_tasks/conf/local/*
