@@ -33,7 +33,7 @@ Sentinel 2A and NDVI. The total size of the dataset is 1.5 TB.
 
 
 ### Downloading downstream datasets
-To download our arctic, biomes, or euforest datasets, use the following:
+To download our arctic, biomes, climate or euforest datasets, use the following:
 
 ```bash
 # arctic
@@ -57,6 +57,10 @@ python downstream_download_from_metadata.py \
     --ncores 64 \
     --crop 264
 ```
+
+Note, climate/CHELSA dataset runs on the biomes points/images.
+
+
 
 ⏳ On our machines, complete download of arctic/biomes datasets takes 
 about 1h on 64 cores, and euforest takes 20min on 64 cores.
