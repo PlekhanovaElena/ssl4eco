@@ -63,8 +63,5 @@ The complete list of supported datasets can be found [here](datasets/__init__.py
 'euforest'
 'euforestsp'
 'euforestwinter'
-'sdmcc'
-'sdmci'
-'sdmld'
 'treesatai'
 ```
