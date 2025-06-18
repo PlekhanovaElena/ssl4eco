@@ -55,7 +55,7 @@ python downstream_download_from_metadata.py \
     --csv_index_path ../index_files/euforest_labels_with_image_ids.csv \
     --save_path ./euforest \
     --ncores 64 \
-    --crop 264
+    --crop 128
 ```
 
 Note, climate/CHELSA dataset runs on the biomes points/images.
