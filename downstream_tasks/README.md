@@ -4,7 +4,7 @@ and MoCo-Eco models on our SSL4Eco dataset.
 
 > **Note**: If you have not done it already, make sure you downloaded 
 the desired downstream datasets. See the 
-[data download section](data_download/README.md) for this. 
+[data download section](../data_download/README.md) for this. 
 
 > **Note**: If you intend to use our pretrained SeCo-Eco model, make 
 sure you downloaded the weights from 
