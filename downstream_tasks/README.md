@@ -68,7 +68,7 @@ The complete list of supported datasets can be found [here](datasets/__init__.py
 
 ## Downstream tasks preparation
 
-### Biomes, Biomes Winter, Arctic, Climate, EUForest
+### Biomes, Biomes Winter, Arctic, Climate, EUForest, EUForest Winter
 
 Please follow the instructions of [data download section](../data_download/README.md) for image download. The corresponding index iles are in the `index_files` folder. The datasets are ready to use.
 
