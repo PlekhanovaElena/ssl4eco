@@ -55,20 +55,17 @@ The complete list of supported datasets can be found [here](datasets/__init__.py
 'biomassters'
 'biomassterswinter'
 'biomes'
-'biomeswinter'
 'clef'
 'clefblind'
 'climate'
-'climatewinter'
 'euforest'
 'euforestsp'
-'euforestwinter'
 'treesatai'
 ```
 
 ## Downstream tasks preparation
 
-### Biomes, Biomes Winter, Arctic, Climate, EUForest, EUForest Winter
+### Biomes, Arctic, Climate, EUForest
 
 Please follow the instructions of [data download section](../data_download/README.md) for image download. The corresponding index iles are in the `index_files` folder. The datasets are ready to use.
 
