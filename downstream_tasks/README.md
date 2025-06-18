@@ -83,7 +83,7 @@ cp ./index_files/be10/bigearthnet-train.csv ./BE_full/bigearthnet-train.csv
 cp ./index_files/be10/bigearthnet-test.csv ./BE_full/bigearthnet-test.csv
 ```
 
-### CLEf
+### CLEF
 
 The images for CLEF should be downloaded similar to [other datasets](../data_download/README.md) to the folders `sdm/clef/imgs` based on coordinates from `/index_files/sdm/clef_labels.csv` index file. The blind part of the competition should be downloaded into `sdm/clef_blind/imgs` based on coordinates from `/index_files/sdm/test_blind.csv` index file.
 
