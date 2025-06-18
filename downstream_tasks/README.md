@@ -65,7 +65,7 @@ The complete list of supported datasets can be found [here](datasets/__init__.py
 
 ## Downstream tasks preparation
 
-### Biomes, Arctic, Climate, EUForest
+### Biomes, Arctic, Climate, EUForest, EUForestSp
 
 Please follow the instructions of [data download section](../data_download/README.md) for image download. The corresponding index iles are in the `index_files` folder. The datasets are ready to use.
 
@@ -80,7 +80,7 @@ cp ./index_files/be10/bigearthnet-train.csv ./BE_full/bigearthnet-train.csv
 cp ./index_files/be10/bigearthnet-test.csv ./BE_full/bigearthnet-test.csv
 ```
 
-### CLEF
+### CLEF, CLEF blind
 
 The images for CLEF should be downloaded similar to [other datasets](../data_download/README.md) to the folders `sdm/clef/imgs` based on coordinates from `/index_files/sdm/clef_labels.csv` index file. The blind part of the competition should be downloaded into `sdm/clef_blind/imgs` based on coordinates from `/index_files/sdm/test_blind.csv` index file.
 
