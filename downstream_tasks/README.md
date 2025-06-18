@@ -68,7 +68,7 @@ The complete list of supported datasets can be found [here](datasets/__init__.py
 
 ## Downstream tasks preparation
 
-### Biomes, Arctic, Climate, EUForest
+### Biomes, Biomes Winter, Arctic, Climate, EUForest
 
 Please follow the instructions of [data download section](../data_download/README.md) for image download. The corresponding index iles are in the `index_files` folder. The datasets are ready to use.
 
@@ -82,6 +82,12 @@ Copy the train-test split into the BE_full folder:
 cp ./index_files/be10/bigearthnet-train.csv ./BE_full/bigearthnet-train.csv
 cp ./index_files/be10/bigearthnet-test.csv ./BE_full/bigearthnet-test.csv
 ```
+
+### CLEf
+
+The images for CLEF should be downloaded similar to [other datasets](../data_download/README.md) to the folders `sdm/clef/imgs` based on coordinates from `/index_files/sdm/clef_labels.csv` index file. The blind part of the competition should be downloaded into `sdm/clef_blind/imgs` based on coordinates from `/index_files/sdm/test_blind.csv` index file.
+
+The final score can be obtained by submitting the resulting prediction into the official [Leaderboard](https://www.kaggle.com/competitions/geolifeclef-2023-lifeclef-2023-x-fgvc10/leaderboard).
 
 
 
