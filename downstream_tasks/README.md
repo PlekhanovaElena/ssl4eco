@@ -29,12 +29,6 @@ python main.py MODEL=satlas DATASET=arctic PROBE=knn
 The complete list of supported models can be found [here](test_modules/__init__.py):
 
 ```bash
-'ablb9'
-'ablb9weights'
-'ablb12'
-'ablb12n'
-'ablb12weights'
-'ablb12nweights'
 'ablcalendar'
 'croma'
 'dofabase'
