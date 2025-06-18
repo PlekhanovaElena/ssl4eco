@@ -5,7 +5,6 @@ from .biomes_dataset import BiomesDataset, BiomesWinterDataset
 from .clef_dataset import CLEFDataset, CLEFBlindDataset
 from .climate_dataset import Climate4Dataset, Climate4WinterDataset
 from .euforest_dataset import EUForestDataset, EUForestWinterDataset, EUForestSpDataset
-from .swisssdm_dataset import SwissSDMccDataset, SwissSDMciDataset, SwissSDMldDataset
 from .treesatai_dataset import TreeSatAIDataset
 
 
@@ -23,9 +22,6 @@ DATASET_DICT = {
     'euforest': (EUForestDataset, 'multi_label_classification', 'micro_f1', 5),
     'euforestsp': (EUForestSpDataset, 'multi_label_classification', 'micro_f1', 5),
     'euforestwinter': (EUForestWinterDataset, 'multi_label_classification', 'micro_f1', 5),
-    'sdmcc': (SwissSDMccDataset, 'classification', 'micro_f1', 1),
-    'sdmci': (SwissSDMciDataset, 'classification', 'micro_f1', 1),
-    'sdmld': (SwissSDMldDataset, 'classification', 'micro_f1', 1),
     'treesatai': (TreeSatAIDataset, 'multi_label_classification', 'weighted_f1', 5),
 }
 
