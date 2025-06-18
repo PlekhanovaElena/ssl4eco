@@ -74,6 +74,12 @@ cp ./index_files/be10/bigearthnet-train.csv ./BE_full/bigearthnet-train.csv
 cp ./index_files/be10/bigearthnet-test.csv ./BE_full/bigearthnet-test.csv
 ```
 
+To add NDVI band to BigEarthNet imagery, run
+
+```bash
+python ./downstream_tasks/add_ndvi_band_BE.py ./BE_full/imgs
+```
+
 ### CLEF, CLEF blind
 
 The images for CLEF should be downloaded similar to [other datasets](../data_download/README.md) to the folders `sdm/clef/imgs` based on coordinates from `/index_files/sdm/clef_labels.csv` index file. The blind part of the competition should be downloaded into `sdm/clef_blind/imgs` based on coordinates from `/index_files/sdm/test_blind.csv` index file.
