@@ -65,3 +65,26 @@ The complete list of supported datasets can be found [here](datasets/__init__.py
 'euforestwinter'
 'treesatai'
 ```
+
+## Downstream tasks preparation
+
+### Biomes, Arctic, Climate, EUForest
+
+Please follow the instructions of [data download section](../data_download/README.md) for image download. The corresponding index iles are in the `index_files` folder. The datasets are ready to use.
+
+### BigEarthNet 10%
+
+To prepare the BigEarthNet 10% dataset, please download the images from [here](https://bigearth.net/v1.0.html) and place the `BigEarthNet-v1.0` folder into the `BE_full` folder. 
+
+Copy the train-test split into the BE_full folder:
+
+```bash
+cp ./index_files/be10/bigearthnet-train.csv ./BE_full/bigearthnet-train.csv
+cp ./index_files/be10/bigearthnet-test.csv ./BE_full/bigearthnet-test.csv
+```
+
+
+
+
+
+
