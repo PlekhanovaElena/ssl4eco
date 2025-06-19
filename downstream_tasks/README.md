@@ -88,7 +88,7 @@ The final score can be obtained by submitting the resulting prediction into the 
 
 ### Biomassters
 
-Please download original dataset from [here](https://huggingface.co/datasets/nascetti-a/BioMassters) Then  add NDVI band with the `add_ndvi_band_BE.py` script. 
+Please download original dataset from [here](https://huggingface.co/datasets/nascetti-a/BioMassters) The original data contains all Sentinel-2 bands except 1, 9 and 10. We only drop band 10, therefore band 1 and 9 need to be added manually as zero matrices in a pre-proccessing step. Finally, add the NDVI band with the `add_ndvi_band_BE.py` script. From this point on, the [dataset code](datasets/biomassters_dataset.py) automatically takes care of parsing the images and turning the pixel-wise AGB labels into a single vector using binning.
 
 
 
