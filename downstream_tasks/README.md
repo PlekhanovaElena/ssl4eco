@@ -86,6 +86,16 @@ The images for CLEF should be downloaded similar to [other datasets](../data_dow
 
 The final score can be obtained by submitting the resulting prediction into the official [Leaderboard](https://www.kaggle.com/competitions/geolifeclef-2023-lifeclef-2023-x-fgvc10/leaderboard).
 
+### Biomassters
+
+Please download original dataset from [here](https://huggingface.co/datasets/nascetti-a/BioMassters) Then  add NDVI band with the `add_ndvi_band_BE.py` script.
+
+
+
+
+
+
+
 
 
 
