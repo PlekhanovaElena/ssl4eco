@@ -88,7 +88,7 @@ The final score can be obtained by submitting the resulting prediction into the 
 
 ### Biomassters
 
-Please download original dataset from [here](https://huggingface.co/datasets/nascetti-a/BioMassters) Then  add NDVI band with the `add_ndvi_band_BE.py` script.
+Please download original dataset from [here](https://huggingface.co/datasets/nascetti-a/BioMassters) Then  add NDVI band with the `add_ndvi_band_BE.py` script. 
 
 
 
