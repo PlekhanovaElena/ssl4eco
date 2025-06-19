@@ -86,7 +86,7 @@ The images for CLEF should be downloaded similar to [other datasets](../data_dow
 
 The final score can be obtained by submitting the resulting prediction into the official [Leaderboard](https://www.kaggle.com/competitions/geolifeclef-2023-lifeclef-2023-x-fgvc10/leaderboard).
 
-### Biomassters
+### BioMassters
 
 Please download original dataset from [here](https://huggingface.co/datasets/nascetti-a/BioMassters). The original data contains all Sentinel-2 bands except 1, 9 and 10. We only drop band 10, therefore band 1 and 9 need to be added manually as zero matrices in a pre-proccessing step, for which we do not provide any code. Finally, add the NDVI band with the `add_ndvi_band_BE.py` script. From this point on, the [dataset code](datasets/biomassters_dataset.py) automatically takes care of parsing the images and turning the pixel-wise AGBM labels into a 1-D label vector using binning.
 
