@@ -42,6 +42,9 @@ downstream macroecological tasks.
 <br>
 
 ## 📰  Updates
+- **18.06.2025** 💾 Released 
+[SSL4Eco and downstream task datasets](https://github.com/PlekhanovaElena/ssl4eco/tree/main/data_download)
+as well as [weights for our SeCo-Eco model](https://huggingface.co/eplekh/secoeco)   
 - **24.04.2025** 🚧 Datasets, code, and weights will soon be publicly 
 released !
 - **11.06.2025** 🌱 First code release
